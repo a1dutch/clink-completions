@@ -75,8 +75,7 @@ jekyll_parser:set_arguments({
 	"build"..jekyll_build_parser,
 	"serve"..jekyll_serve_parser,
 	"server"..jekyll_serve_parser,
-	"new"..jekyll_new_parser,
-	"help"..jekyll_help_parser,
+	"new"..jekyll_new_parser
 });
 
 clink.arg.register_parser("jekyll", jekyll_parser)
